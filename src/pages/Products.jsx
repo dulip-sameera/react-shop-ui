@@ -43,7 +43,7 @@ const Products = () => {
                         <strong className="price">{product.price}</strong>
                       </span>
                       <Link
-                        to={`products/${product.id}`}
+                        to={`/products/${product.id}`}
                         className="btn btn-primary btn-sm"
                       >
                         DETAILS &#8594;
