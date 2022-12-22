@@ -1,0 +1,52 @@
+body {
+  background-color: #282828;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* main */
+
+main {
+  background-color: white;
+}
+
+main .content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+main .pg-header {
+  padding: 60px 0;
+  background: #e6e6e6;
+}
+
+main .pg-header h1 {
+  color: #333;
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Button */
+
+.btn-primary {
+  border-radius: 0;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.breadcrumb a {
+  color: #000;
+}
+
+@media all and (max-width: 991px) {
+  .breadcrumb.justify-content-end {
+    justify-content: flex-start !important;
+  }
+}
