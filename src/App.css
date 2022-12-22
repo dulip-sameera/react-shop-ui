@@ -122,3 +122,33 @@ main .pg-header h1 {
 .card .btn-primary {
   font-weight: 600;
 }
+
+/* Single Product */
+.single h2 {
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.single h2::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  bottom: -6px;
+  height: 2px;
+  background-color: #666;
+  left: 0;
+}
+
+.single .btn-primary {
+  font-weight: 600;
+}
+
+.single .price {
+  font-size: 22px;
+}
+
+.single .price strong {
+  color: #0a58ca;
+}
