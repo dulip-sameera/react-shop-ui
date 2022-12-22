@@ -71,3 +71,54 @@ main .pg-header h1 {
   background-color: #666;
   left: 0;
 }
+
+/* Products */
+
+.products-row .card .card-body {
+  background: #f5f5f5;
+}
+
+.products-row .col-lg-4 {
+  margin-bottom: 20px;
+}
+
+.products-row .card-text {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card {
+  border-radius: 0;
+  box-shadow: 0px 10px 10px #eee;
+}
+
+.card .card-title {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.card .img-wrap {
+  height: 300px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.125);
+}
+
+.card .img-wrap img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.card .price {
+  color: #0d6efd;
+}
+
+.card .btn-primary {
+  font-weight: 600;
+}
