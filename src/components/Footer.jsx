@@ -41,6 +41,9 @@ const Footer = () => {
             </NavLink>
           </nav>
         </div>
+        <div className="copyrights">
+          &copy; 2022 <Link to={"/"}>Shop</Link> - All rights Reserved
+        </div>
       </footer>
     </>
   );
