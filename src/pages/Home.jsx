@@ -5,7 +5,7 @@ const Home = () => {
     <main>
       <div className="pg-header">
         <div className="container">
-          <h1>Welcome to Shop UI</h1>
+          <h1>Welcome to Shop</h1>
         </div>
       </div>
       <div className="container content">
