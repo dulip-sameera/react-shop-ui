@@ -165,3 +165,40 @@ main .pg-header h1 {
 .posts .card-text {
   text-align: center;
 }
+
+/* Header */
+header {
+  padding: 20px 0;
+  background-color: #000;
+}
+
+header .logo {
+  transform: rotate(-6deg);
+  transition: all 0.3s ease;
+}
+
+header .logo:hover {
+  transform: rotate(0deg);
+}
+
+header .brand {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Leckerli One", cursive;
+  background-color: #2d2d2d;
+  border-radius: 40px;
+  border-bottom: 2px solid #6294de;
+  text-shadow: 2px 2px 0px #000;
+}
+
+header .nav-link {
+  font-weight: 700;
+  color: #999;
+  border-radius: 0;
+  font-size: 14px;
+}
+
+header .nav-link:hover {
+  color: #fff;
+}
