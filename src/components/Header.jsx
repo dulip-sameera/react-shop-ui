@@ -9,24 +9,44 @@ const Header = () => {
           <div className="d-flex justify-content-between align-items-center">
             <div className="logo">
               <Link to="/" className="brand">
-                WSP
+                Shop
               </Link>
             </div>
 
-            <div className="nav nav-pills">
-              <Link to="/" className="">
+            <nav className="nav nav-pills">
+              <NavLink
+                to="/"
+                className={(navData) =>
+                  navData.isActive ? "nav-link active" : "nav-link"
+                }
+              >
                 Home
-              </Link>
-              <Link to="about" className="">
+              </NavLink>
+              <NavLink
+                to="about"
+                className={(navData) =>
+                  navData.isActive ? "nav-link active" : "nav-link"
+                }
+              >
                 About
-              </Link>
-              <Link to="products" className="">
+              </NavLink>
+              <NavLink
+                to="products"
+                className={(navData) =>
+                  navData.isActive ? "nav-link active" : "nav-link"
+                }
+              >
                 Products
-              </Link>
-              <Link to="posts" className="">
+              </NavLink>
+              <NavLink
+                to="posts"
+                className={(navData) =>
+                  navData.isActive ? "nav-link active" : "nav-link"
+                }
+              >
                 Posts
-              </Link>
-            </div>
+              </NavLink>
+            </nav>
           </div>
         </div>
       </header>
